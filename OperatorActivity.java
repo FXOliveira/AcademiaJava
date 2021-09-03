@@ -3,7 +3,7 @@ package sef.module3.activity;
 import java.util.Scanner;
 
 /**
- * @author 
+ * @author FelipeXavier
  *
  */
 public class OperatorActivity {
@@ -21,7 +21,7 @@ public class OperatorActivity {
 		System.out.print("Write another Number:");
 		num2 = input.nextInt();
 		
-		res = num1 - num2;
+		res = num1 - num2;      // Difference Between Numbers
 		
 		System.out.println();
 		System.out.println(num1+" - "+num2+" = "+res);
