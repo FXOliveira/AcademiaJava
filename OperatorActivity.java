@@ -1,31 +1,26 @@
-package sef.module3.activity;
-
 import java.util.Scanner;
 
-/**
- * @author FelipeXavier
- *
- */
-public class OperatorActivity {
+public class Difference {
 
 	public static void main(String[] args) {
 		
-		int num1,num2;
-		int res;
-		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Write a Number:");
-		num1 = input.nextInt();
+		int num1,num2;
+		int diff;
 		
-		System.out.print("Write another Number:");
+		System.out.print("number:");
+		num1 = input.nextInt();
+		System.out.print("another number:");
 		num2 = input.nextInt();
 		
-		res = num1 - num2;      // Difference Between Numbers
+		diff = num1 - num2;       // CHECK DIFFERENCE BETWEEN THE 2 NUMBERS
 		
 		System.out.println();
-		System.out.println(num1+" - "+num2+" = "+res);
+		System.out.print(num1 + "-" + num2 + "=" +diff);
+		
+		input.close();
 		
 	}
-
+	
 }
