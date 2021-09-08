@@ -16,7 +16,7 @@ public class Difference {
 		System.out.print("another number:");
 		num2 = input.nextInt();
 		
-		diff = num1 - num2;
+		diff = num1 - num2;   //CHECK DIFFERENCE BETWEEN NUMBERS
 		
 		System.out.println();
 		System.out.print(num1 + "-" + num2 + "=" +diff);
